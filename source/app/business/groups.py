@@ -43,5 +43,6 @@ def groups_update(group_updated: Group) -> Group:
     update_group()
     return group_updated
 
+
 def groups_delete(group: Group):
     delete_group(group)
